@@ -1,0 +1,19 @@
+.outer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px; /* 3 columns, each 100px wide */
+    grid-template-rows: 100px 100px; /* 2 rows, each 100px tall */
+    gap: 10px; /* Space between grid items */
+}
+.item{
+    background-color: lightblue;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
